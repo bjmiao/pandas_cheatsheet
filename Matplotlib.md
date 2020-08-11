@@ -1,4 +1,9 @@
-#
+# Type of Figure
+
+
+# Type of CSS
+
+# Type of 
 
 
 
@@ -8,6 +13,18 @@
   - ls/linestyle : 	{'-', '--', '-.', ':', '', (offset, on-off-seq), ...}
 
 
-# Axis Legend and Title
-- plt.xlabel
-- plt.ylabel
+- plt.scatter
+  - label : 用来后面标legend
+  - 
+  - marker :
+    - [marker](img\matplotlib_markers.png)
+
+# Axis 
+
+### Legend and Title
+- plt.xlabel/ylabel
+
+### Scale
+- plt.xscale/yscale(value , **kwargs); value : {"linear", "log", "symlog", "logit", ...}
+
+
